@@ -1,0 +1,45 @@
+body {
+  font-family: "Monaco";
+}
+header {
+  text-align: center;
+}
+main {
+  font-size: 18px;
+}
+#image {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin: 20px auto 20px auto;
+  box-shadow: 0px 0px 30px black;
+  border-radius: 20px;
+}
+#img-caption {
+  text-align: center;
+}
+#tribute-info {
+  display: block;
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+#tribute-info h2 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+#tribute-info li {
+  margin: 10px;
+}
+#tribute-info p {
+  margin: 50px 0 50px 0;
+}
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width:700px) {
+	#tribute-info {
+		width: 90%;
+	}
+}
